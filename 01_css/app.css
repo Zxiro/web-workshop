@@ -6,6 +6,7 @@ body {
     #navbar, #banner, #main, #bottom {
         background-color: white;
           max-width: 30em;
+          position:fixed;
             width: 100%;
           }
 
@@ -17,6 +18,7 @@ body {
 
                 i.avatar, i.icon {
                     background-position: center;
+                    display:inline-block;
                       height: 30px;
                     }
 
@@ -33,7 +35,10 @@ body {
                                 }
 
                                 .right {
+                                  position:absolute;
+                                  right:0.5em;
                                 }
+                              
 
                                 .avatar.dirty { background-image: url(./res/dirty.jpg) }
                                 .icon.arrow   { background-image: url(./res/angle-left.jpg) }
@@ -41,7 +46,7 @@ body {
                                 .icon.submit  { background-image: url(./res/external-link.svg) }
 
                                 #banner {
-                                    background: url(./res/main.jpg) center; 
+                                    background: url(./res/main.jpg) center/cover; 
                                       top: 40px;
                                         height: 250px;
                                       }
