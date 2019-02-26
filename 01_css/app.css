@@ -41,7 +41,7 @@ body {
                                 .icon.submit  { background-image: url(./res/external-link.svg) }
 
                                 #banner {
-                                    background: url(./res/main.jpg) center / cover;
+                                    background: url(./res/main.jpg) center; 
                                       top: 40px;
                                         height: 250px;
                                       }
@@ -60,7 +60,7 @@ body {
                                                     }
 
                                                     h1 {
-                                                        font-size: 5em;
+                                                        font-size:30px;
                                                       }
 
                                                       p {
